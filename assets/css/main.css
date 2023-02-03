@@ -8,6 +8,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, blockquote,
 pre, a, abbr, acronym, address, p, big, cite,
@@ -121,6 +122,15 @@ input, select, textarea {
 		cursor: pointer;
 		/* text-decoration: underline; */
 	}
+	
+	/* @media all and (max-width: 320px) {
+		a {
+			display: block;
+			font-size: 10px;
+			margin: 5px 0px;
+		}
+	} */
+
 
 		/* a:hover {
 			font-size: 18px;
@@ -408,6 +418,12 @@ input, select, textarea {
 		.container.medium {
 			width: 900px;
 		}
+	#defaultlayout {
+		display: block;	
+	}
+	#alternativelayout {
+		display: none;	
+	}
 
 		@media screen and (max-width: 1680px) {
 
@@ -455,6 +471,53 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
+
+			#defaultlayout {
+				display: none;	
+			}
+			#alternativelayout {
+				display: block;	
+			}
+
+			.carousel__button:hover { 
+				transform: scale(1.1); 
+			}
+			
+			.carousel__button--left{
+				left: -30px;
+				margin-top: -30px;
+				padding-right: 0px;
+			}
+			
+			.carousel__button--right{
+				right: -30px;
+				margin-top: -30px;
+				padding-left: 200px;
+			}
+
+			.carousel__button:hover { 
+				transform: scale(1.1); 
+			}
+			.carousel__button--left:hover { 
+				left: -20px;
+			}
+			.carousel__button--right:hover { 
+				right: -20px;
+			}
+			
+			.carousel__button img{
+				width: 20px;
+			}
+
+
+			.carousel__indicator{
+				/* margin: 10px 10px 0 10px; */
+				display: none;
+			}
+
+			.carousel__indicator img{
+				margin-top: -15px;
+			}
 
 		}
 
@@ -1930,6 +1993,11 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+		.image.featuredsq2 {
+			display:inline-block;
+			width: 30%;
+			margin: 0 0 0 0;
+		}
 
 		.image.left {
 			float: left;
@@ -2040,6 +2108,16 @@ color: #994022;
 /* position: absolute; */
 margin: auto;
 }
+
+.linesegfour{
+	width: 90%;
+	height: 47px;
+	border-bottom: 2px solid;
+	color: #994022;
+	/* position: absolute; */
+	margin-left: 5%;
+	margin-right: 5%;
+	}
 
 .linesegthree{
 	width: 50%;
