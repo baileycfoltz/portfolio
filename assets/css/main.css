@@ -484,15 +484,17 @@ input, select, textarea {
 			}
 			
 			.carousel__button--left{
+				border: 2px dotted;
 				left: -30px;
 				margin-top: -30px;
-				padding-right: 0px;
+				padding-left: 2%;
 			}
 			
 			.carousel__button--right{
+				border: 2px dotted;
 				right: -30px;
 				margin-top: -30px;
-				padding-left: 200px;
+				padding-left: 90%;
 			}
 
 			.carousel__button:hover { 
