@@ -18,19 +18,30 @@
 	<body class="is-preload" >
 
 		<!-- Header -->
-		<p class="headera" onclick="document.location='index.html'" style="text-align: left; width:49%; display: inline-block; padding: 0px 50px 1em 50px">
+		<div id="defaultlayout">
+			<p class="headera" onclick="document.location='index.html'" style="text-align: left; width:49%; display: inline-block; padding: 0px 50px 1em 50px">
 			<img class="mide" src="logos/logomain.png" alt="logo" style="width:50px;height:auto;"> bailey foltz</p>
 		<p style="text-align: right; width:50%;  display: inline-block; padding: 0 50px 1em 50px">
 			<a class="aone" onclick="document.location='index.html'">art</a>&emsp;&emsp;&emsp;&emsp;
 			<a class="aone" onclick="document.location='code.html'">code</a>&emsp;&emsp;&emsp;&emsp;
 			<a class="aone" onclick="document.location='about.html'">about</a></p>
+		</div>
+
+		<div id="alternativelayout">
+			<p class="headera" onclick="document.location='index.html'" style="text-align: center; width:100%; display: inline-block; padding: 0 30px .5em 30px; font-size:36px">
+				<img class="mide" src="logos/logomain.png" alt="logo" style="width:40px;height:auto;"> bailey foltz</p>
+			<p style="text-align: center; width:100%;  display: inline-block; padding: 0 30px 1em 30px">
+				<a class="aone" onclick="document.location='index.html'">art</a> &emsp;&emsp;
+				<a class="aone" onclick="document.location='code.html'">code</a> &emsp;&emsp;
+				<a class="aone" onclick="document.location='about.html'">about</a></p>
+		</div>
 	
 		<!-- Setting up the layout -->
-		<article id="portfolio" class="wrapper style1" style="display: inline-block; padding: 0px 30px 0 30px;">
+		<article id="portfolio" class="wrapper style1" style="display: inline-block; padding: 0px 30px 1em 30px;">
 				<div class="container">
 				<header>
-					<p class="headeratwo" style="text-align: center;" >visual art</p>
-					<div class="linesegthree" style="margin-top:20px"> </div>
+					<p class="headeratwo" style="text-align: center;margin-top:20px" >visual art</p>
+					<div class="linesegthree" style="margin-top:10px"> </div>
 				</header>
 
 			<!-- images -->
@@ -68,8 +79,14 @@
 						<p class="atwolight" style="margin-top: -20px;">Baby Mom - paper collage and crayon on paper</p>
 					</div></div>
 
-					<div class="lineseg" style="display: inline-block; margin-top: 70px;"> </div> <br>
-					<div style="display: inline-block; padding-top: 70px;"> </div>
+					<div id="defaultlayout">
+						<div class="lineseg" style="display: inline-block; margin-top: 70px;"> </div> <br>
+						<div style="display: inline-block; padding-top: 70px;"> </div>
+					</div>
+					<div id="alternativelayout">
+						<div class="linesegfour" style="display: inline-block; padding-top: 20px;"> </div> <br>
+						<div style="display: inline-block; padding-top: 10px;"> </div>
+					</div>
 					
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
