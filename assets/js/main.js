@@ -31,6 +31,7 @@ var date4 = "[ 2022 ]";
 function typeWritera() {
 	if (a1 < msga1.length) {
 	  document.getElementById("demoa1").innerHTML += msga1.charAt(a1);
+	  document.getElementById("demoa2").innerHTML += msga1.charAt(a1);
 	  a1++;
 	  setTimeout(typeWritera, 100);
 	}}
