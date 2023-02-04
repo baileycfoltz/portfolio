@@ -425,10 +425,12 @@ input, select, textarea {
 		display: none;	
 	}
 
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+				/* width: 1200px; */
+				width: 100%;
 			}
 
 				.container.medium {
