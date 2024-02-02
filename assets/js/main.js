@@ -17,6 +17,8 @@ var msg5 = "AR app based around different tree frogs";
 var msg6 = "romantic quote resource";
 var msg7 = "an interactive music-making experience";
 var msg8 = "AR project about sharing information on the internet";
+var msg9 = "digital spiritual communication";
+var msg10 = "a point-and-click game about cats, witchcraft, and the plague";
 
 var a1 = 0; var a2 = 0;
 var msga1 = "hello! i'm bailey";
@@ -26,6 +28,7 @@ var date1 = "[ 2019 ]";
 var date2 = "[ 2020 ]";
 var date3 = "[ 2021 ]";
 var date4 = "[ 2022 ]";
+var date5 = "[ 2023 ]";
 
 
 function typeWritera() {
@@ -110,6 +113,28 @@ function typeWriter8() {
 		document.getElementById("demo8d").innerHTML += date1.charAt(i8d);
 		i8d++;
 		setTimeout(typeWriter8, 50);
+	}}
+
+function typeWriter9() {
+	if (i9 < msg9.length) {
+		document.getElementById("demo9").innerHTML += msg9.charAt(i9);
+		i9++;
+		setTimeout(typeWriter9, 50);
+	} else if (i9d < date4.length) {
+		document.getElementById("demo9d").innerHTML += date4.charAt(i9d);
+		i9d++;
+		setTimeout(typeWriter9, 50);
+	}}
+
+function typeWriter10() {
+	if (i10 < msg10.length) {
+		document.getElementById("demo10").innerHTML += msg10.charAt(i10);
+		i10++;
+		setTimeout(typeWriter10, 50);
+	} else if (i10d < date5.length) {
+		document.getElementById("demo10d").innerHTML += date5.charAt(i10d);
+		i10d++;
+		setTimeout(typeWriter10, 50);
 	}}
 
 
