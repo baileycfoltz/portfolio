@@ -7,8 +7,8 @@
 // i'm sorry in advance for this typewriter code im too lazy the figure how to make one typewriter code that actually continues going
 // i promise to fix it at some point
 
-var i1 = 0; var i2 = 0; var i3 = 0; var i4 = 0; var i5 = 0; var i6 = 0; var i7 = 0; var i8 = 0;
-var i2d = 0; var i5d = 0; var i6d = 0; var i7d = 0; var i8d = 0;
+var i1 = 0; var i2 = 0; var i3 = 0; var i4 = 0; var i5 = 0; var i6 = 0; var i7 = 0; var i8 = 0; var i9 = 0; var i10 = 0;
+var i2d = 0; var i5d = 0; var i6d = 0; var i7d = 0; var i8d = 0; var i9d = 0; var i10d = 0;
 var msg1 = "mostly paintings, but also other traditional art mediums";
 var msg2 = "every day, for 100 days, i made a zine";
 var msg3 = "inspired by my filipino american heritage";
