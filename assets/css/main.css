@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #FAF5F3;
+	background-color: #FFF9EF;
 }
 
 ol, ul {
@@ -117,7 +117,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #994022;
+		color: #3e3e3e;
 		line-height: 100%;
 		cursor: pointer;
 		/* text-decoration: underline; */
@@ -145,7 +145,7 @@ input, select, textarea {
 		font-family: 'Averia Serif Libre', cursive;
 		/* font-family: 'Druk Wide Bold'; */
 		font-size:45px;
-		color:#994022;
+		color:#3e3e3e;
 		line-height: 100%;
 		cursor: pointer;
 		}
@@ -154,7 +154,7 @@ input, select, textarea {
 	.headeratwo {
 		font-family: 'Averia Serif Libre', cursive;
 		font-size:24px;
-		color:#994022;
+		color:#3e3e3e;
 		line-height: 100%;
 		}
 
@@ -163,7 +163,7 @@ input, select, textarea {
 		font-weight: 400;
 		font-size: 18px;
 		text-align: left;
-		color: #994022;
+		color: #3e3e3e;
 		line-height: 130%;
 	}	
 
@@ -177,7 +177,7 @@ input, select, textarea {
 		font-weight: 400;
 		font-size: 14px;
 		text-align: left;
-		color: #994022;
+		color: #3e3e3e;
 		line-height: 130%;
 	}	
 
@@ -186,7 +186,7 @@ input, select, textarea {
 		font-weight: 400;
 		font-size: 14px;
 		/* text-align: left; */
-		color: #994022;
+		color: #3e3e3e;
 		line-height: 130%;
 	}
 	
@@ -194,7 +194,7 @@ input, select, textarea {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
 		font-size:24px;
-		color:#994022;
+		color:#3e3e3e;
 		line-height: 100%;
 		}
 
@@ -203,7 +203,7 @@ input, select, textarea {
 		font-weight: 100;
 		font-size: 14px;
 		text-align: left;
-		color: #994022;
+		color: #3e3e3e;
 		line-height: 130%;
 	}	
 
@@ -1961,7 +1961,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #4f4f4f;
-				color: #fff;
+				color: #fff9ef;
 			}
 
 /* Section/Article */
@@ -2070,7 +2070,7 @@ input, select, textarea {
 	font-weight: 100;
 	font-size: 18px;
 	text-align: left;
-	color: #994022;
+	color: #3e3e3e;
 	line-height: 130%;
 	}
 	
@@ -2120,7 +2120,7 @@ input, select, textarea {
 width: 70%;
 height: 47px;
 border-bottom: 2px solid;
-color: #994022;
+color: #3e3e3e;
 /* position: absolute; */
 margin: auto;
 }
@@ -2129,7 +2129,7 @@ margin: auto;
 	width: 90%;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #994022;
+	color: #3e3e3e;
 	/* position: absolute; */
 	margin-left: 5%;
 	margin-right: 5%;
@@ -2139,7 +2139,7 @@ margin: auto;
 	width: 50%;
 	height: 5px;
 	border-bottom: 2px solid;
-	color: #994022;
+	color: #3e3e3e;
 	/* position: absolute; */
 	margin: auto;
 	}
@@ -2148,7 +2148,7 @@ margin: auto;
 	width: 150px;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #994022;
+	color: #3e3e3e;
 	/* position: absolute; */
 	margin-top: -25px;
 	}
@@ -2261,7 +2261,7 @@ margin: auto;
 		.wrapper.style1 {
 			background-image: none;
 			/* background-color: #FAF5F3; */
-			background-color: #FAF5F3;
+			background-color: #fff9ef;
 		}
 
 		.wrapper.style2 {
