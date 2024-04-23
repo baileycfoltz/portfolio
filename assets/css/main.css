@@ -170,6 +170,7 @@ input, select, textarea {
 	.aone:hover {
 		font-size: 18px;
 		font-style: italic;
+		color: #9b8a00;
 	}
 
 	.atwo {
@@ -2120,7 +2121,7 @@ input, select, textarea {
 width: 70%;
 height: 47px;
 border-bottom: 2px solid;
-color: #3e3e3e;
+color: #9b8a00;
 /* position: absolute; */
 margin: auto;
 }
@@ -2129,7 +2130,7 @@ margin: auto;
 	width: 90%;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #3e3e3e;
+	color: #9b8a00;
 	/* position: absolute; */
 	margin-left: 5%;
 	margin-right: 5%;
@@ -2139,7 +2140,7 @@ margin: auto;
 	width: 50%;
 	height: 5px;
 	border-bottom: 2px solid;
-	color: #3e3e3e;
+	color: #9b8a00;
 	/* position: absolute; */
 	margin: auto;
 	}
@@ -2148,7 +2149,7 @@ margin: auto;
 	width: 150px;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #3e3e3e;
+	color: #9b8a00;
 	/* position: absolute; */
 	margin-top: -25px;
 	}
