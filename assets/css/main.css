@@ -1543,6 +1543,19 @@ input, select, textarea {
 	/* imperative for the overlapping to work
 	grid-template-columns: repeat(12, 1fr); */
 	}
+
+	.image-stack__item--extra {
+		border-radius: 15px;
+		/* border: 3px solid;
+		border-color: #994022; */
+		overflow: hidden;
+		grid-column: -1;
+		grid-row: 1;
+		}
+
+	.image-stack__item--extra:hover { 
+		transform: scale(1.1); 
+		}
 	
 	.image-stack__item--bottom {
 	border-radius: 15px;
