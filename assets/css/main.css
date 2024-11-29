@@ -224,6 +224,25 @@ input, select, textarea {
 		line-height: 130%;
 	}	
 
+	.atwolink {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		font-size: 14px;
+		text-align: left;
+		color: #3e3e3e;
+		line-height: 130%;
+	}
+
+	.atwolink:hover {
+		font-family: 'Roboto', sans-serif;
+		font-style: italic;
+		font-weight: 100;
+		font-size: 14px;
+		text-align: left;
+		color: #3e3e3e;
+		line-height: 130%;
+	}
+
 
 	b, strong {
 		font-weight: 600;
@@ -1584,8 +1603,8 @@ input, select, textarea {
 
 	.image-stack__item--extra {
 		border-radius: 15px;
-		/* border: 3px solid;
-		border-color: #994022; */
+		border: 3px solid;
+		border-color: #994022;
 		overflow: hidden;
 		grid-column: -1;
 		grid-row: 1;
