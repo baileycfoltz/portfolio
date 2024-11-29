@@ -158,6 +158,22 @@ input, select, textarea {
 		line-height: 100%;
 		}
 
+	.headerathree {
+		font-family: 'Roboto', sans-serif;
+		font-style: italic;
+		font-size:45px;
+		color:#3e3e3e;
+		line-height: 100%;
+		}
+
+	.headerafour {
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-size:32px;
+		color:#3e3e3e;
+		line-height: 100%;
+		}
+
 	.aone {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
@@ -170,7 +186,7 @@ input, select, textarea {
 	.aone:hover {
 		font-size: 18px;
 		font-style: italic;
-		color: #9b8a00;
+		color: #BE4C35;
 	}
 
 	.atwo {
@@ -525,6 +541,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Row */
 
@@ -1644,7 +1661,7 @@ input, select, textarea {
 width: 70%;
 height: 47px;
 border-bottom: 2px solid;
-color: #9b8a00;
+color: #BE4C35;
 /* position: absolute; */
 margin: auto;
 }
@@ -1653,7 +1670,7 @@ margin: auto;
 	width: 90%;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #9b8a00;
+	color: #BE4C35;
 	/* position: absolute; */
 	margin-left: 5%;
 	margin-right: 5%;
@@ -1663,7 +1680,7 @@ margin: auto;
 	width: 50%;
 	height: 5px;
 	border-bottom: 2px solid;
-	color: #9b8a00;
+	color: #BE4C35;
 	/* position: absolute; */
 	margin: auto;
 	}
@@ -1672,7 +1689,7 @@ margin: auto;
 	width: 150px;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #9b8a00;
+	color: #BE4C35;
 	/* position: absolute; */
 	margin-top: -25px;
 	}
