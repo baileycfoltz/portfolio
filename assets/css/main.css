@@ -226,7 +226,7 @@ input, select, textarea {
 
 	.atwolink {
 		font-family: 'Roboto', sans-serif;
-		font-weight: 100;
+		font-weight: 400;
 		font-size: 14px;
 		text-align: left;
 		color: #3e3e3e;
@@ -1627,7 +1627,7 @@ input, select, textarea {
 	grid-column: -1;
 	grid-row: 1;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 18px;
 	text-align: left;
 	color: #3e3e3e;
