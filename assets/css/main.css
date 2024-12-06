@@ -1556,7 +1556,9 @@ input, select, textarea {
 		.image.featuredsq {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin-bottom:2em;
+			margin-left: auto;
+			margin-right:auto;
 		}
 		.image.featuredsq2 {
 			display:inline-block;
