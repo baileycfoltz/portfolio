@@ -30,12 +30,12 @@
 			<header>
 				<p class="headeratwo" style="text-align: center;" >musical playing cards</p>
 				<div class="linesegthree" style="margin-top:20px"> </div>
-				<p class="athree" style="text-align: center;margin-top: 40px;" >an interactive music making experience</p>
-				<p class="athree" style="text-align: center;margin-top: 20px;" >programmed using Google’s Teachable Machine and p5.js<br><br>[ 2020 ]</p>
+				<p class="athree" style="text-align: center;margin-top: 40px;" >An <b>interactive music making experience</b></p>
+				<p class="athree" style="text-align: center;margin-top: 20px;" >[ 2020 ]</p>
 			</header>
 
 		<!-- video -->
-		<div class="videoins">
+		<div class="videoins" style="margin-top:-30px;">
 			<video width="70%" height="auto" controls style="border-radius:15px;">
 				<source src="images/musical_cards.mp4" type="video/mp4">
 			</video>
@@ -45,34 +45,35 @@
 		<!-- info -->
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 50px;" >background :</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >This program was created as a final assignment for a Designing Interfaces for Live Performances class in 2020. For my final live performance integrating interfaces, I decided to use image recognition to create music, a more tactile version of easy-to-use music generation software that just requires selecting pre-made looping beats and layering them.</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >Simplifying music creation to pre-recorded looping beats and allowing the user to trigger these beats with physical objects makes music creation a more playful interactive experience, and using playing cards which have a pre-existing set of symbols unassociated with musical beats gives the user known tools while still providing unexpected outcomes.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >This program was created as a final assignment for a <i>Designing Interfaces for Live Performances</i>&nbsp class.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >For my final live performance integrating interfaces, I decided to use image recognition to create music, a simpler and more tactile version of music production software on which you might select pre-made looping beats and layer them.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >Simplifying music creation to pre-recorded loops and allowing the user to trigger these loops with physical objects makes music creation a more playful and interactive experience. Using playing cards, which have a pre-existing set of symbols unassociated with musical beats, gives the user known tools while still providing unexpected outcomes.</p>
 		</header>
 
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 50px;" >audience :</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right:30px;" >The audience for this program is all users with all levels of experience in music creation, as no prior knowledge is required to simply trigger the looping beats, and no prior understanding of playing card meanings is required to place them down on the table.</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp I was inspired by simple music generation games, such as the Oskar Fischinger Google Doodle or the Club Penguin DJ3K game, which give young or inexperienced users a simplified interface with which they can trigger different looping sounds. Other non-screen interfaces like giant piano mats or the midi fighter are also visually simplified ways to trigger sound with the press of a button.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right:30px;" >The audience for this program is all users with all levels of experience in music creation, as no prior knowledge of production interfaces is required.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp I was inspired by beginner-friendly music production games, such as the Oskar Fischinger Google Doodle or DJ3K in Club Penguin, which give young or inexperienced users a simplified interface and allow them to layer different looping sounds. Other non-browser interfaces, like giant piano mats or the midi fighter, are also visually simplified ways to trigger sound with the press of a button.</p>
 			<p class="athree" style="text-align: left;margin-top: 12px;margin-left: 60px;margin-right:30px;" >• &nbsp Using a more tactile interface that requires physical object manipulation increases the sense of physical control over the music, somewhat imitating the playing of an instrument but for a user with little musical experience.</p>
 			<p class="athree" style="text-align: left;margin-top: 12px;margin-left: 60px;margin-right:30px;" >• &nbsp Average user interaction with this experience is projected to take 3-10 minutes.</p>
 		</header>
 
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top:50px;" >process :</p>
-			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;" >I began by planning out the process, both on the user’s side and on the back end.</p>
-			<a class="image featuredsq" style="margin-top:15px;margin-left:30px;width:40%;height:auto;"><img src="images/musicalplayingcards/cardoutline.jpg" alt="user flow sketch" /></a>
-			<p class="athree" style="text-align: left;margin-top:50px;margin-left:30px;margin-right:30px;" >I then started the process by learning to use Google’s teachable machine. Once I had my camera set-up figured out, I was able to take photos of different frames that I would need the machine to recognize and tell the program to differentiate different cards from each other. The machine is not perfect and would occasionally still make errors, but it was accurate enough to get mostly correct readings for this project.</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp It should be noted that when I put cards down as part of this experience, I am used to putting the cards down in the same way in which I put them down while recording the data, and so it may be less accurate for others who are using the music generator. However, not all mistakes made by Google's teachable machine are obvious, and so it may go unnoticed by the user and/or not affect their enjoyment.</p>
-			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;margin-right:30px;" >I uploaded my machine learning model to p5.js in order to use that program to trigger events based on the image readings.</p>
-			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;margin-right:30px;" >Finally I created the looping beats using GarageBand and Audacity just to make varying 8 count loops that could be uploaded onto my p5 sketch. The cards were able to trigger ten different sounds that could be layered on top of each other. By placing the card down on the table in view of the camera, the camera could determine which card you had chosen and play its corresponding musical loop.</p>
-			<a class="image featuredsq" style="margin-top:15px;margin-left:30px;width:50%;height:auto;"><img src="images/musicalplayingcards/cardscore.jpg" alt="musical card guide" /></a>
+			<p class="athree" style="text-align: left;margin-top:15px;margin-left:30px;margin-right:30px;" >I started the process by learning to use <i>Google’s teachable machine</i>. Once I established the camera set-up that I use throughout the project, I took photos of different cards and hand positions that I would need the machine to recognize. Once categorized, this would let the program differentiate between different cards.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp  <i>Google's teachable machine</i>&nbsp is not perfect and would occasionally make errors due to limits of image recognition at the time and my own limits on training the program, but it was accurate enough to get mostly correct readings for this project. Most mistakes made by the program were not obvious and did not significantly impact user enjoyment.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp It should be noted that when I participate in this experience, there are less variables impacting the data (as the image recognition is only trained with me as a user). It may be less accurate for other users, who might place the cards down differently or whose hands look different etc.. In a wider reaching version of this program, using a diverse set of users for machine learning is crucial, but for this version the training was much more limited.</p>
+			<a class="image featuredsq" style="margin-top:30px;width:80%;height:auto;"><img src="images/musicalplayingcards/cardoutline2.png" alt="user flow sketch" /></a>
+			<p class="athree" style="text-align: left;margin-top:15px;margin-left:30px;margin-right:30px;" >I imported my machine learning model into <i>p5.js</i> , an open-source Javascript library, so that I could trigger events based on the image readings.</p>
+			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;margin-right:30px;" >Finally I created custom looping beats using <i>GarageBand</i> and <i>Audacity</i>. I created ten different 8 count loops to be imported into my p5 sketch. By placing the card face up on the table, the camera could determine which card you had chosen and play its corresponding musical loop, allowing for several loops to be layered on top of one another.</p>
+			<a class="image featuredsq" style="margin-top:30px;width:80%;height:auto;"><img src="images/musicalplayingcards/cardscore2.png" alt="musical card guide" /></a>
 
 		</header>
 
-				<!-- <div class="image-stack__item--top" style="width:100px;height:auto; display: inline-block; margin-top: -20px; margin-left:0px;">
+				<div class="image-stack__item--top" style="width:200px;height:auto; display: inline-block; margin-top: -20px; margin-left:0px;">
 					<a href="https://editor.p5js.org/baileycfoltz/sketches/p5b7MZiYS" target="_blank" rel="noopener noreferrer">
-					<img src="images/borderfiles/border8.png" alt="two"></a></div> -->
-					<p class="atwolink" style="text-align: center;margin-top: 40px;" >link to code</p>	
+					<img src="images/borderfiles/border05.png" alt="two"></a></div>
+					<p class="athree" style="text-align: center;margin-top: -60px;" >link to code</p>	
 		</header></div>
 
 				<div class="lineseg" style="display: inline-block; margin-top: 70px;"> </div> <br>
@@ -95,13 +96,13 @@
 			<header>
 				<p class="headeratwo" style="text-align: center;margin-top:20px" >musical playing cards</p>
 				<div class="linesegthree" style="margin-top:10px"> </div>
-				<p class="athree" style="text-align: center;margin-top: 20px;" >an interactive music making experience</p>
-				<p class="athree" style="text-align: center;margin-top: 20px;" >programmed using Google’s Teachable Machine and p5.js<br><br>[ 2020 ]</p>
+				<p class="athree" style="text-align: center;margin-top: 20px;" >An <b>interactive music making experience</b></p>
+				<p class="athree" style="text-align: center;margin-top: 20px;" >[ 2020 ]</p>
 			</header>
 
 		<!-- video -->
 		<div class="videoins">
-			<video width="75%" height="auto" controls preload="metadata" style="border-radius:15px;">
+			<video width="100%" height="auto" controls preload="metadata" style="border-radius:15px;">
 				<source src="images/musical_cards.mp4#t=0.001" type="video/mp4">
 			</video>
 				<!-- <a class="image featuredsq" style="margin-left:auto;margin-right:auto;width:500px;height:auto;"><img src="images/pic00.jpg" alt="" /></a> -->
@@ -110,34 +111,35 @@
 		<!-- info -->
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 30px;" >background :</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;" >This program was created as a final assignment for a Designing Interfaces for Live Performances class in 2020. For my final live performance integrating interfaces, I decided to use image recognition to create music, a more tactile version of easy-to-use music generation software that just requires selecting pre-made looping beats and layering them.</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;" >Simplifying music creation to pre-recorded looping beats and allowing the user to trigger these beats with physical objects makes music creation a more playful interactive experience, and using playing cards which have a pre-existing set of symbols unassociated with musical beats gives the user known tools while still providing unexpected outcomes.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;" >This program was created as a final assignment for a <i>Designing Interfaces for Live Performances</i>&nbsp class.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;" >For my final live performance integrating interfaces, I decided to use image recognition to create music, a simpler and more tactile version of music production software on which you might select pre-made looping beats and layer them.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;" >Simplifying music creation to pre-recorded loops and allowing the user to trigger these loops with physical objects makes music creation a more playful and interactive experience. Using playing cards, which have a pre-existing set of symbols unassociated with musical beats, gives the user known tools while still providing unexpected outcomes.</p>
 		</header>
 
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 30px;" >audience :</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;" >The audience for this program is all users with all levels of experience in music creation, as no prior knowledge is required to simply trigger the looping beats, and no prior understanding of playing card meanings is required to place them down on the table.</p>
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp I was inspired by simple music generation games, such as the Oskar Fischinger Google Doodle or the Club Penguin DJ3K game, which give young or inexperienced users a simplified interface with which they can trigger different looping sounds. Other non-screen interfaces like giant piano mats or the midi fighter are also visually simplified ways to trigger sound with the press of a button.</p>
-			<p class="athree" style="text-align: left;margin-top: 12px;margin-left: 20px;" >• &nbsp Using a more tactile interface that requires physical object manipulation increases the sense of physical control over the music, somewhat imitating the playing of an instrument but for a user with little musical experience.</p>
-			<p class="athree" style="text-align: left;margin-top: 12px;margin-left: 20px;" >• &nbsp Average user interaction with this experience is projected to take 3-10 minutes.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;" >The audience for this program is all users with all levels of experience in music creation, as no prior knowledge of production interfaces is required.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp I was inspired by beginner-friendly music production games, such as the Oskar Fischinger Google Doodle or DJ3K in Club Penguin, which give young or inexperienced users a simplified interface and allow them to layer different looping sounds. Other non-browser interfaces, like giant piano mats or the midi fighter, are also visually simplified ways to trigger sound with the press of a button.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp Using a more tactile interface that requires physical object manipulation increases the sense of physical control over the music, somewhat imitating the playing of an instrument but for a user with little musical experience.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp Average user interaction with this experience is projected to take 3-10 minutes.</p>
 		</header>
 
 		<header>
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top:30px;" >process :</p>
-			<p class="athree" style="text-align: left;margin-top:20px;" >I began by planning out the process, both on the user’s side and on the back end.</p>
-			<a class="image featuredsq" style="margin-top:15px;width:80%;height:auto;"><img data-enlargable src="images/musicalplayingcards/cardoutline.jpg" alt="user flow sketch" /></a>
-			<p class="athree" style="text-align: left;margin-top:20px;" >I then started the process by learning to use Google’s teachable machine. Once I had my camera set-up figured out, I was able to take photos of different frames that I would need the machine to recognize and tell the program to differentiate different cards from each other. The machine is not perfect and would occasionally still make errors, but it was accurate enough to get mostly correct readings for this project.</p>		
-			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp It should be noted that when I put cards down as part of this experience, I am used to putting the cards down in the same way in which I put them down while recording the data, and so it may be less accurate for others who are using the music generator. However, not all mistakes made by Google's teachable machine are obvious, and so it may go unnoticed by the user and/or not affect their enjoyment.</p>
-			<p class="athree" style="text-align: left;margin-top:20px;" >I uploaded my machine learning model to p5.js in order to use that program to trigger events based on the image readings.</p>		
-			<p class="athree" style="text-align: left;margin-top:20px;" >Finally I created the looping beats using GarageBand and Audacity just to make varying 8 count loops that could be uploaded onto my p5 sketch. The cards were able to trigger ten different sounds that could be layered on top of each other. By placing the card down on the table in view of the camera, the camera could determine which card you had chosen and play its corresponding musical loop.</p>	
-			<a class="image featuredsq" style="margin-top:15px;width:80%;height:auto;"><img data-enlargable src="images/musicalplayingcards/cardscore.jpg" alt="musical card guide" /></a>
+			<p class="athree" style="text-align: left;margin-top:20px;" >I started the process by learning to use <i>Google’s teachable machine</i>. Once I established the camera set-up that I use throughout the project, I took photos of different cards and hand positions that I would need the machine to recognize. Once categorized, this would let the program differentiate between different cards.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp  <i>Google's teachable machine</i>&nbsp is not perfect and would occasionally make errors due to limits of image recognition at the time and my own limits on training the program, but it was accurate enough to get mostly correct readings for this project. Most mistakes made by the program were not obvious and did not significantly impact user enjoyment.</p>
+			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 20px;" >• &nbsp It should be noted that when I participate in this experience, there are less variables impacting the data (as the image recognition is only trained with me as a user). It may be less accurate for other users, who might place the cards down differently or whose hands look different etc.. In a wider reaching version of this program, using a diverse set of users for machine learning is crucial, but for this version the training was much more limited.</p>
+			<a class="image featuredsq" style="margin-top:15px;width:100%;height:auto;"><img data-enlargable src="images/musicalplayingcards/cardoutline2.png" alt="user flow sketch" /></a>
+			<p class="athree" style="text-align: left;margin-top:20px;" >I imported my machine learning model into <i>p5.js</i> , an open-source Javascript library, so that I could trigger events based on the image readings.</p>
+			<p class="athree" style="text-align: left;margin-top:20px;" >Finally I created custom looping beats using <i>GarageBand</i> and <i>Audacity</i>. I created ten different 8 count loops to be imported into my p5 sketch. By placing the card face up on the table, the camera could determine which card you had chosen and play its corresponding musical loop, allowing for several loops to be layered on top of one another.</p>
+			<a class="image featuredsq" style="margin-top:15px;width:100%;height:auto;"><img data-enlargable src="images/musicalplayingcards/cardscore.jpg" alt="musical card guide" /></a>
 		</header>
 
 		<header>
-				<!-- <div class="image-stack__item--top" style="width:100px;height:auto; display: inline-block; margin-top: 20px; margin-left:0px;">
+				<div class="image-stack__item--top" style="width:200px;height:auto; display: inline-block; margin-top:0px; margin-left:0px;">
 					<a href="https://editor.p5js.org/baileycfoltz/sketches/p5b7MZiYS" target="_blank" rel="noopener noreferrer">
-					<img src="images/borderfiles/border8.png" alt="two"></a></div> -->
-					<p class="atwolight" style="text-align: center;margin-top: 40px;font-style: italic;" >link to code</p>	
+					<img src="images/borderfiles/border06.png" alt="two"></a></div>
+					<p class="athree" style="text-align: center;margin-top: -80px;font-style: italic;" >link to code</p>	
 		</header></div>
 
 				<div class="linesegfour" style="display: inline-block; padding-top: 20px;"> </div> <br>
