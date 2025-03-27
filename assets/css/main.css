@@ -120,6 +120,7 @@ input, select, textarea {
 		color: #3e3e3e;
 		line-height: 100%;
 		cursor: pointer;
+		text-decoration:none;
 		/* text-decoration: underline; */
 	}
 	
