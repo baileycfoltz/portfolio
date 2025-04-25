@@ -42,7 +42,7 @@
 		</div>
 
 		<!-- info -->
-		<header>
+		<header style="padding: 0 50px 1em 50px">
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 50px;" >background :</p>
 			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >This site was created as a final assignment for an <i>Electronic Rituals, Oracles, and Fortune Telling</i>  class. I created this as a continuation of an assignment I had done for the same class, for which the prompt was:</p>
 			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right: 30px;" ><i>make a prototype of an electronic spirit board or other method for facilitating automatic writing (communication from unconscious/subconscious/collective gesture)</i></p>
@@ -50,14 +50,14 @@
 			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right: 30px;" >For each of these questions, I wanted to consider how the spirit could still theoretically extend its powers through a digital space - affecting the board (the screen), the planchette (the mouse), or the subconscious of the users (no change).</p>
 		</header>
 
-		<header>
+		<header style="padding: 0 50px 1em 50px">
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top: 50px;" >audience :</p>
 			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 30px;margin-right:30px;" >This experience is intended for two people using separate devices.</p>
 			<p class="athree" style="text-align: left;margin-top: 20px;margin-left: 60px;margin-right:30px;" >• &nbsp While reading about ouija boards I learned that it was traditionally intended to be controlled by no more than two users at a time. In movies, shows, and books I always see the board being used by big groups of people, or occasionally just one person, so I was surprised to learn that it was originally intended to be a two person activity. I wanted to maintain this rule for my ouija board.</p>
 			<p class="athree" style="text-align: left;margin-top: 12px;margin-left: 60px;margin-right:30px;" >• &nbsp This site gives a different - and possibly updated - perspective to the concept of a spirit board, but also allows people to participate in this activity together without the necessity of physical proximity to each other.</p>
 		</header>
 
-		<header>
+		<header style="padding: 0 50px 1em 50px">
 			<p class="headeratwo" style="text-align: left;color: #BE4C35;margin-top:50px;" >process :</p>
 			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;" >I began by planning out how the board could translate onto a digital space. </p>
 			<p class="athree" style="text-align: left;margin-top:20px;margin-left:30px;margin-right:30px;" >I wanted to make a board where the “planchette” was controlled by one’s mouse. The planchette's location on a physical board would be determined by the joint influence of two users, and the same would be true for this board. When the two users both happen to have their mouse in the same location at the same time, that is when a “match” is produced - and if that location happens to be over a letter or other character, that is the message the entity in charge of the ouija board may be trying to send. Each user can only see their own mouse and not the mouse of their counterpart, so these "matches" must be caused by chance, intuition, or their subconsciouses.</p>
@@ -149,18 +149,20 @@
 				<a class="image featuredsq" style="margin-top:15px;margin-bottom:10px;width:64%;height:auto;"><img data-enlargable src="images/ouijaboard/ouijaboard.jpg" alt="digital sketch of an ouija board with the letters in keyboard alignment" /></a>
 				<a class="image featuredsq" style="margin-top:15px;margin-bottom:10px;width:27%;height:auto;"><img data-enlargable src="images/ouijaboard/planchette.png" alt="planchette shaped like a mouse pointer, or an arrow" /></a>
 			</div>
-		</header></div>
-
+		
 			<p class="athree" style="text-align: left;margin-top:20px;" >My first prototype and original assignment submission was created on <i>p5.js</i> , an open-source Javascript library, and was a file modeling the board’s movement without two-person functionality. <br><br>My next step was to establish this two-person connection - I needed two different devices to relay information (mouse location) back and forth. Due to time constraints, I opted for a local connection, allowing the site to be launched through one’s ip address and limiting connection to two devices on the same wifi network. This also made it easier for me to control who could be on the site and limit it to two people at a time. If an entity does control the board, this would also help prevent issues relating to the boards and users being too distant.</p>
 			<p class="athree" style="text-align: left;margin-top:20px;" >I tested my initial program as a “match test” to see how often two different users overlapped in mouse locations. Even when given context, users on different devices took an average of two minutes before getting a “match”. I did not want it to take so long, so I adjusted my program to quicken match time. I made the proximity range larger so that the mouses did not have to be so close to determine a "match" and I slowed down planchette's movement. There were other aspects which I was already planning to change for my final version - adding a delay to the planchette's movement when following the pointer, and including the visual of the board, which gives users a clearer objective and more specific locations to aim for.</p>
 			<p class="athree" style="text-align: left;margin-top:20px;" >In the final version of the ouija board shown here, two users in the same or separate rooms are expected to pose a question to an entity and then begin to use the digital board, tracking the letters the board gives them along the way in order to spell out the entity’s answer (or lack of).</p>
-
+	
 		<!-- video -->
 		<div class="videoins">
 			<video width="75%" height="auto" controls preload="metadata" style="margin-top:30px;border-radius:15px;">
 				<source src="images/ouijaboard/ouijademo.mp4#t=0.001" type="video/mp4">
 			</video>
 				<!-- <a class="image featuredsq" style="margin-left:auto;margin-right:auto;width:500px;height:auto;"><img src="images/pic00.jpg" alt="" /></a> -->
+		</div>
+	
+		</header>		
 		</div>
 
 				<div class="linesegfour" style="display: inline-block; padding-top: 20px;"> </div> <br>
