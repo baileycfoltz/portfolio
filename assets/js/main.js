@@ -138,16 +138,15 @@ function typeWriter10() {
 	}}
 
 
-	function isInstagram() {
-		return navigator.userAgent.includes("Instagram");
-	  }
+	// function isInstagram() {
+	// 	return navigator.userAgent.includes("Instagram");
+	//   }
 	  
-	  if (isInstagram()) {
-		const video = document.querySelector('video');
-		video.removeAttribute('autoplay');
-		video.setAttribute('controls','');
-		// video.removeAttribute('muted'); // Optional: Let users control sound
-	  }
+	//   if (isInstagram()) {
+	// 	const video = document.querySelector('video');
+	// 	video.removeAttribute('autoplay');
+	// 	video.setAttribute('controls','');
+	//   }
 
 
 (function($) {
