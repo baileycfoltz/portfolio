@@ -18,14 +18,15 @@ const slideWidth = slides[0].getBoundingClientRect().width;
 // arrange the slides next to one another
 
 const setSlidePosition = (slide, index) => {
-    slide.style.left = slideWidth * index + 20 + 'px';
+    
+    slide.style.left = slideWidth * index + 0 + 'px';
 };
 slides.forEach(setSlidePosition);
 
 // function that moves the slide from current to target slide when called
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
-    track.style.transform = 'translateX(-' + targetSlide.style.left; + ')';
+    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
     currentSlide.classList.remove('current-slide');
     targetSlide.classList.add('current-slide');
 }
