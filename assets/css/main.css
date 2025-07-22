@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #FFF9EF;
+	background-color: #fffbf6;
 }
 
 ol, ul {
@@ -1519,7 +1519,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #4f4f4f;
-				color: #fff9ef;
+				color: #fffbf6;
 			}
 
 /* Section/Article */
@@ -1834,7 +1834,8 @@ margin: auto;
 		.wrapper.style1 {
 			background-image: none;
 			/* background-color: #FAF5F3; */
-			background-color: #fff9ef;
+			background-color: #fffbf6;
+			/* #fff9ef; */
 		}
 
 		.wrapper.style2 {
