@@ -1627,7 +1627,6 @@ input, select, textarea {
 		transform: scale(1.1); 
 		}
 
-
 	.image-stack__item--other {
 		overflow: hidden;
 		grid-column: -1;
