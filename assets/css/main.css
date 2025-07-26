@@ -474,6 +474,18 @@ input, select, textarea {
 		display: none;	
 	}
 
+	.full-screen-container {
+		height: 100vh;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	  }
+	  embed {
+		height: 100%;
+		width: 100%;
+		border: none;
+	  }
+
 
 		@media screen and (max-width: 1680px) {
 
