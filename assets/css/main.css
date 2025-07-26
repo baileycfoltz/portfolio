@@ -822,6 +822,15 @@ input, select, textarea {
 			margin-left: 20%;
 			margin-right: 20%;
 		}
+		
+		.row > .col-22 {
+			width: 46%;
+		}
+
+		.row > .off-22 {
+			margin-left: 46%;
+			margin-right: 46%;
+		}
 
 		.row.gtr-0 {
 			margin-top: 0px;
