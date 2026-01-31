@@ -27,11 +27,6 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-html, body {
-	max-width: 100%;
-	overflow-x: hidden;
-	}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -1812,10 +1807,11 @@ input, select, textarea {
 		width: 100vw; /* Ensures the container is the width of the page/parent */
 		height: 200px; /* Set a desired height */
 		overflow: hidden; /* This crops the image if it goes outside this box */
-		margin-left: calc(50% - 50vw);
+		margin-left: calc(50% - 35vw);
 		}
 
 	.linecont img {
+		width:360px;
 		height: auto;
 		object-fit: cover;
 		}
