@@ -115,8 +115,8 @@ input, select, textarea {
 
 @font-face {
 	font-family: 'NostalgiaPeach';
-	src: 	url('/assets/webfonts/Nostalgia_Peachcreme/NostalgiaPeachcreme.woff2') format('woff2'),
-			url('/assets/webfonts/Nostalgia_Peachcreme/NostalgiaPeachcreme.woff') format('woff');
+	src: 	url('/assets/webfonts/Nostalgia_Peachcreme/nostalgiapeachcreme.woff2') format('woff2'),
+			url('/assets/webfonts/Nostalgia_Peachcreme/nostalgiapeachcreme.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 			font-display: swap;
