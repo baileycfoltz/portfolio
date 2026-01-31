@@ -114,9 +114,9 @@ input, select, textarea {
 		} 
 
 @font-face {
-	font-family: 'NostalgiaPeach';
-	src: 	url('/assets/webfonts/Nostalgia_Peachcreme/nostalgiapeachcreme.woff2') format('woff2'),
-			url('/assets/webfonts/Nostalgia_Peachcreme/nostalgiapeachcreme.woff') format('woff');
+	font-family: 'NostalgiaPeachcreme';
+	src: 	url('/assets/webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff2') format('woff2'),
+			url('/assets/webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 			font-display: swap;
@@ -227,7 +227,7 @@ input, select, textarea {
 		}
 
 	.headerafour {
-		font-family: 'NostalgiaPeach', sans-serif;
+		font-family: 'NostalgiaPeachcreme', sans-serif;
 		font-weight: normal;
 		font-style: normal;
 		font-size:32px;
@@ -1838,7 +1838,7 @@ input, select, textarea {
 			}
 
 	.image-stack__itemdistort {
-		width: 80%;
+		width: 90%;
 		height: 320px;
 		}
 
