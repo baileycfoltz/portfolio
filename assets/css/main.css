@@ -1851,13 +1851,16 @@ input, select, textarea {
 
 		.image-stack__itemdistortmob {
 			width: 100%;
-			height: 320px;
+			max-width: 100vw;
+			overflow-x: hidden;
+			display: flex;
+			justify-content: center;
 			}
 	
 		.image-stack__itemdistortmob img{
-			width: 100%;
-			height: 100%;
-			object-fit: fill; /* allows distortion */
+			
+			max-width: 100%;
+			height: auto;
 			display: block;
 			}
 
