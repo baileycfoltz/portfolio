@@ -81,7 +81,8 @@ input, select, textarea {
 @font-face {
     font-family: 'Satoshi';
     src: url('./assets/webfonts/Satoshi/Satoshi-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('./assets/webfonts/Satoshi/Satoshi-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+         url('./assets/webfonts/Satoshi/Satoshi-Regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+		 url('./assets/webfonts/Satoshi/Satoshi-Regular.woff2') format('woff2') ;/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 font-weight: normal;
 		 font-style: normal;
 		} 
@@ -89,7 +90,8 @@ input, select, textarea {
 @font-face {
     font-family: 'Satoshi';
     src: url('./assets/webfonts/Satoshi/Satoshi-Italic.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('./assets/webfonts/Satoshi/Satoshi-Italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+         url('./assets/webfonts/Satoshi/Satoshi-Italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+		 url('./assets/webfonts/Satoshi/Satoshi-Italic.woff2') format('woff2'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 		 font-weight: normal;
 		 font-style: italic;
 		} 
@@ -97,7 +99,8 @@ input, select, textarea {
 @font-face {
 	font-family: 'Satoshi';
 	src: url('./assets/webfonts/Satoshi/Satoshi-Medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		url('./assets/webfonts/Satoshi/Satoshi-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+		url('./assets/webfonts/Satoshi/Satoshi-Medium.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+		url('./assets/webfonts/Satoshi/Satoshi-Medium.woff2') format('woff2'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 		font-weight: medium;
 		font-style: normal;
 		} 
@@ -105,7 +108,8 @@ input, select, textarea {
 @font-face {
     font-family: 'Satoshi';
     src: url('./assets/webfonts/Satoshi/Satoshi-Bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('./assets/webfonts/Satoshi/Satoshi-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+         url('./assets/webfonts/Satoshi/Satoshi-Bold.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+		 url('./assets/webfonts/Satoshi/Satoshi-Bold.woff2') format('woff2'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 		 font-weight: bold;
 		 font-style: normal;
 		} 
@@ -113,7 +117,8 @@ input, select, textarea {
 @font-face {
 	font-family: 'Nostalgia Peachcreme';
 	src: url('./assets/webfonts/Nostalgia_peachcreme/NostalgiaPeachcreme.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-			url('./assets/webfonts/Nostalgia_peachcreme/NostalgiaPeachcreme.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+			url('./assets/webfonts/Nostalgia_peachcreme/NostalgiaPeachcreme.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+			url('./assets/webfonts/Nostalgia_peachcreme/NostalgiaPeachcreme.woff2') format('woff2'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 			font-weight: normal;
 			font-style: normal;
 		} 
