@@ -1777,7 +1777,8 @@ input, select, textarea {
 	z-index: 1;
 	/* tells the browser to make this image on top */
 	/* cursor: pointer; */
-	transform: scale(0.5)
+	transform: scale(0.5);
+	overflow: hidden;
 	}
 
 	.image-stack__item--toprot {
