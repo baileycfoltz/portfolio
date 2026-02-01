@@ -1857,12 +1857,13 @@ input, select, textarea {
 			overflow-x: hidden;
 			display: flex;
 			justify-content: center;
+			height: 320px;
 			}
 	
 		.image-stack__itemdistortmob img{
 			
 			max-width: 100%;
-			height: auto;
+			height: 100%;
 			display: block;
 			}
 
@@ -1881,7 +1882,7 @@ margin: auto;
 	border-bottom: 2px solid;
 	color: #BDD3CE;
 	/* position: absolute; */
-	margin-left: 5%;
+	margin-left: 7%;
 	margin-right: 5%;
 	}
 
