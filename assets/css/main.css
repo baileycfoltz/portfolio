@@ -82,8 +82,9 @@ input, select, textarea {
     font-family: 'Satoshi';
     src:	url('./assets/webfonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
 			url('./assets/webfonts/Satoshi/Satoshi-Regular.woff') format('woff');
-		 font-weight: normal;
-		 font-style: normal;
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
 		} 
 
 @font-face {
@@ -1811,7 +1812,7 @@ input, select, textarea {
 		}
 
 	.linecont img {
-		width:360px;
+		width:300px;
 		height: auto;
 		object-fit: cover;
 		}
