@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
-@import url("https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold");
+/* @import url("https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold"); */
 
 /*
 	Miniport by HTML5 UP
@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #FCF3E3;
+	background-color: #FFFAF3;
 }
 
 ol, ul {
@@ -80,8 +80,8 @@ input, select, textarea {
 
 @font-face {
     font-family: 'Satoshi';
-    src:	url('/assets/webfonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
-			url('/assets/webfonts/Satoshi/Satoshi-Regular.woff') format('woff');
+    src:	url('../webfonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
+			url('../webfonts/Satoshi/Satoshi-Regular.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 			font-display: swap;
@@ -89,26 +89,17 @@ input, select, textarea {
 
 @font-face {
     font-family: 'Satoshi';
-    src:	url('/assets/webfonts/Satoshi/Satoshi-Italic.woff2') format('woff2'),
-			url('/assets/webfonts/Satoshi/Satoshi-Italic.woff') format('woff');
+    src:	url('../webfonts/Satoshi/Satoshi-Italic.woff2') format('woff2'),
+			url('../webfonts/Satoshi/Satoshi-Italic.woff') format('woff');
 			font-weight: normal;
 			font-style: italic;
 			font-display: swap;
 		} 
 
-/* @font-face {
-	font-family: 'Satoshi';
-	src:	url('/assets/webfonts/Satoshi/Satoshi-Medium.woff2') format('woff2'),
-			url('/assets/webfonts/Satoshi/Satoshi-Medium.woff') format('woff');
-			font-weight: medium;
-			font-style: normal;
-			font-display: swap;
-		}  */
-
 @font-face {
     font-family: 'Satoshi';
-    src:	url('/assets/webfonts/Satoshi/Satoshi-Bold.woff2') format('woff2'),
-			url('/assets/webfonts/Satoshi/Satoshi-Bold.woff') format('woff');
+    src:	url('../webfonts/Satoshi/Satoshi-Bold.woff2') format('woff2'),
+			url('../webfonts/Satoshi/Satoshi-Bold.woff') format('woff');
 			font-weight: bold;
 			font-style: normal;
 			font-display: swap;
@@ -116,10 +107,26 @@ input, select, textarea {
 
 @font-face {
 	font-family: 'NostalgiaPeachcreme';
-	src: 	url('/assets/webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff2') format('woff2'),
-			url('/assets/webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff') format('woff');
+	src: 	url('../webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff2') format('woff2'),
+			url('../webfonts/NostalgiaPeachcreme/nostalgiapeachcreme.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
+			font-display: swap;
+		} 
+
+@font-face {
+	font-family: 'VintagePostman';
+	src:	url('../webfonts/VintagePostman/VintagePostman-Regular.woff') format('woff'),
+			url('../webfonts/VintagePostman/VintagePostman-Regular.woff2') format('woff2');
+			font-style: normal;
+			font-display: swap;
+		} 
+
+@font-face {
+	font-family: 'VintagePostman';
+	src:	url('../webfonts/VintagePostman/VintagePostman-Italic.woff') format('woff'),
+			url('../webfonts/VintagePostman/VintagePostman-Italic.woff2') format('woff2');
+			font-style: italic;
 			font-display: swap;
 		} 
 
@@ -191,7 +198,7 @@ input, select, textarea {
 		}
 
 	.headera {
-		font-family: 'Satoshi', ;
+		font-family: 'Satoshi' ;
 		font-size:32px;
 		font-weight: normal;
 		color:#013D5A;
@@ -201,21 +208,24 @@ input, select, textarea {
 	
 
 	.headeratwo {
-		font-family: 'Playfair Display SC', serif;
+		font-family: 'VintagePostman';
+		font-style: normal;
 		font-size:24px;
-		color:#013D5A;
+		color:#000000;
 		line-height: 100%;
 		}
 
 	.headeratwohov {
-		font-family: 'Playfair Display SC', serif;
+		font-family: 'VintagePostman';
+		font-weight: normal;
+		font-style: normal;
 		font-size:24px;
 		color:#013D5A;
 		line-height: 100%;
 		}
 
 	.headeratwohov:hover {
-		color: #BDD3CE;
+		color: #D5D08C;
 	}
 
 	.headerathree {
@@ -228,11 +238,11 @@ input, select, textarea {
 		}
 
 	.headerafour {
-		font-family: 'NostalgiaPeachcreme', sans-serif;
+		font-family: 'VintagePostman' ;
 		font-weight: normal;
-		font-style: normal;
-		font-size:32px;
-		color:#013D5A;
+		font-style: italic;
+		font-size:52px;
+		color:#8D2645;
 		line-height: 100%;
 		}
 
@@ -248,7 +258,7 @@ input, select, textarea {
 	.aone:hover {
 		font-size: 18px;
 		/* font-style: italic; */
-		color: #BDD3CE;
+		color: #D5D08C;
 	}
 
 	.atwo {
@@ -1631,7 +1641,7 @@ input, select, textarea {
 
 			table.default thead {
 				background: #4f4f4f;
-				color: #FCF3E3;
+				color: #FFFAF3;
 			}
 
 /* Section/Article */
@@ -1729,7 +1739,7 @@ input, select, textarea {
 	.image-stack__item--extra {
 		border-radius: 15px;
 		border: 3px solid;
-		border-color: #BDD3CE;
+		border-color: #D5D08C;
 		overflow: hidden;
 		grid-column: -1;
 		grid-row: 1;
@@ -1872,7 +1882,7 @@ input, select, textarea {
 width: 70%;
 height: 47px;
 border-bottom: 2px solid;
-color: #BDD3CE;
+color: #D5D08C;
 /* position: absolute; */
 margin: auto;
 }
@@ -1881,7 +1891,7 @@ margin: auto;
 	width: 90%;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #BDD3CE;
+	color: #D5D08C;
 	/* position: absolute; */
 	margin-left: 7%;
 	margin-right: 5%;
@@ -1891,7 +1901,7 @@ margin: auto;
 	width: 50%;
 	height: 5px;
 	border-bottom: 2px solid;
-	color: #BDD3CE;
+	color: #D5D08C;
 	/* position: absolute; */
 	margin: auto;
 	}
@@ -1900,7 +1910,7 @@ margin: auto;
 	width: 150px;
 	height: 47px;
 	border-bottom: 2px solid;
-	color: #BDD3CE;
+	color: #D5D08C;
 	/* position: absolute; */
 	margin-top: -25px;
 	}
@@ -1909,7 +1919,7 @@ margin: auto;
 	width: 30%;
 	height: 5px;
 	border-bottom: 2px solid;
-	color: #BDD3CE;
+	color: #D5D08C;
 	/* position: absolute; */
 	margin: auto;
 	}
@@ -2021,7 +2031,7 @@ margin: auto;
 		.wrapper.style1 {
 			background-image: none;
 			/* background-color: #FAF5F3; */
-			background-color: #FCF3E3;
+			background-color: #FFFAF3;
 			/* #fff9ef; */
 		}
 

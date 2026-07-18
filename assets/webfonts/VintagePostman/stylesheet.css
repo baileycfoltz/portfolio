@@ -1,0 +1,28 @@
+
+
+
+@font-face {
+    font-family: 'VintagePostman-Regular';
+    src: url('/VintagePostman-Regular.woff2') format('woff2'),
+         url('VintagePostman-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'VintagePostman-Italic';
+    src: url('VintagePostman-Italic.woff2') format('woff2'),
+         url('VintagePostman-Italic.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  /* @font-face {
+    font-family: 'nostalgia_peachcremeregular';
+    src: url('nostalgiapeachcreme-webfont.woff2') format('woff2'),
+         url('nostalgiapeachcreme-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
