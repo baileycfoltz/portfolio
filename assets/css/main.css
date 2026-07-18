@@ -172,7 +172,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #013D5A;
+		color: #000000;
 		line-height: 100%;
 		cursor: pointer;
 		text-decoration:none;
@@ -201,7 +201,7 @@ input, select, textarea {
 		font-family: 'Satoshi' ;
 		font-size:32px;
 		font-weight: normal;
-		color:#013D5A;
+		color:#000000;
 		line-height: 100%;
 		cursor: pointer;
 		}
@@ -220,7 +220,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-style: normal;
 		font-size:24px;
-		color:#013D5A;
+		color:#000000;
 		line-height: 100%;
 		}
 
@@ -233,7 +233,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-style: italic;
 		font-size:45px;
-		color:#013D5A;
+		color:#000000;
 		line-height: 100%;
 		}
 
@@ -251,7 +251,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 18px;
 		text-align: left;
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}	
 
@@ -266,7 +266,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 16px;
 		text-align: left;
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}	
 
@@ -275,7 +275,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 16px;
 		/* text-align: left; */
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}
 	
@@ -283,7 +283,7 @@ input, select, textarea {
 		font-family: 'Satoshi', sans-serif;
 		font-weight: normal;
 		font-size:24px;
-		color:#013D5A;
+		color:#000000;
 		line-height: 100%;
 		}
 
@@ -293,7 +293,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 16px;
 		/* text-align: left; */
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}
 
@@ -302,7 +302,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 16px;
 		text-align: left;
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}	
 
@@ -311,7 +311,7 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 14px;
 		text-align: left;
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}
 
@@ -321,14 +321,14 @@ input, select, textarea {
 		font-weight: normal;
 		font-size: 14px;
 		text-align: left;
-		color: #013D5A;
+		color: #000000;
 		line-height: 130%;
 	}
 
 
 	b, strong {
 		font-weight: 600;
-		color: #013D5A;
+		color: #000000;
 	}
 
 	i, em {
@@ -354,7 +354,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #013D5A;
+		color: #000000;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1775,7 +1775,7 @@ input, select, textarea {
 	font-weight: normal;
 	font-size: 18px;
 	text-align: left;
-	color: #013D5A;
+	color: #000000;
 	line-height: 130%;
 	}
 	
