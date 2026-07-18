@@ -1739,7 +1739,7 @@ input, select, textarea {
 	.image-stack__item--extra {
 		border-radius: 15px;
 		border: 3px solid;
-		border-color: #D5D08C;
+		border-color: #8D2645;
 		overflow: hidden;
 		grid-column: -1;
 		grid-row: 1;
