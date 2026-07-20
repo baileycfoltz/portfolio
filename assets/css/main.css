@@ -1852,7 +1852,7 @@ input, select, textarea {
 
 	.image-stack__itemdistort {
 		width: 90%;
-		height: 320px;
+		height: 350px;
 		}
 
 	.image-stack__itemdistort img{
@@ -1868,7 +1868,7 @@ input, select, textarea {
 			overflow-x: hidden;
 			display: flex;
 			justify-content: center;
-			height: 320px;
+			height: 340px;
 			}
 	
 		.image-stack__itemdistortmob img{
